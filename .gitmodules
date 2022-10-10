@@ -1,0 +1,6 @@
+[submodule "Match/Assets/Tools"]
+	path = Match/Assets/Tools
+	url = https://github.com/anthonyromrell/ArtisanDream.Tools
+[submodule "Match/Assets/OldScripts"]
+	path = Match/Assets/OldScripts
+	url = https://github.com/RickFerlin/1610Spring2022/tree/main/Lab%20Project/Lab%20Assignment/Assets/Scripts
