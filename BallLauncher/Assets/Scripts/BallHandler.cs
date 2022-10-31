@@ -16,16 +16,12 @@ public class BallHandler : MonoBehaviour
     
     private Camera mainCamera;
     private bool isDragging;
-
-    // Start is called before the first frame update
     void Start()
     {
         mainCamera = Camera.main;
         
         SpawnNewBall();
     }
-
-    // Update is called once per frame
     void Update()
     {
         if (currentBallRigidbody == null){ return; }
