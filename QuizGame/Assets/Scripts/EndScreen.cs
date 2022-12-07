@@ -19,7 +19,7 @@ public class EndScreen : MonoBehaviour
         {
             finalScoreText.text = "You know your stuff. \n Final score: " + scoreKeeper.CalculateScore() + "%";
         }
-        else if (scoreKeeper.CalculateScore() > 75 && scoreKeeper.CalculateScore() < 90)
+        else if (scoreKeeper.CalculateScore() > 59 && scoreKeeper.CalculateScore() < 90)
         {
             finalScoreText.text = "Not bad. I guess. Not good either. \n Final score: " + scoreKeeper.CalculateScore() + "%";
         }

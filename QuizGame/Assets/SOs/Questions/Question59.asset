@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ad0f7a9a396223419c3b5dc2759fd60, type: 3}
+  m_Name: Question59
+  m_EditorClassIdentifier: 
+  question: In 2022 the Grammies added a category for video game scores, but what
+    video game was the first (and only) to be nominated in the "Best Score for Visual
+    Media" category?
+  answers:
+  - Super Mario Galaxy
+  - 'Uncharted 2: Among Thieves'
+  - Journey
+  - 'The Elder Scrolls V: Skyrim'
+  correctAnswerIndex: 2

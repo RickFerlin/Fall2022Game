@@ -38,7 +38,7 @@ public class Quiz : MonoBehaviour
     {
         timer = FindObjectOfType<Timer>();
         scoreKeeper = FindObjectOfType<ScoreKeeper>();
-        progressBar.maxValue = questions.Count; //change this to 20.
+        progressBar.maxValue = 10; //change this to 20.
         //You'll also have to change something in the GetNextQuestion method.
         progressBar.value = 0;
     }
@@ -98,7 +98,7 @@ public class Quiz : MonoBehaviour
 
     void GetNextQuestion()
     {
-        if (questions.Count > 0) //Will have to change this to the amount of questions.
+        if (progressBar.value < 11) //Will have to change this to the amount of questions.
         {
             SetButtonState(true);
             SetDefaultButtonSprites();
