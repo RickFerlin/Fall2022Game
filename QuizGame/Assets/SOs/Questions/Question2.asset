@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ad0f7a9a396223419c3b5dc2759fd60, type: 3}
   m_Name: Question2
   m_EditorClassIdentifier: 
-  question: What year did Link first set out on an adventer in The Legend of Zelda
+  question: What year did Link first set out on an adventure in The Legend of Zelda
     (NES)?
   answers:
   - 1984

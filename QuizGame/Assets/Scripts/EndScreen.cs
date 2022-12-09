@@ -1,5 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
+
 using UnityEngine;
 using TMPro;
 
@@ -7,6 +6,10 @@ public class EndScreen : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI finalScoreText;
     private ScoreKeeper scoreKeeper;
+    
+    [SerializeField] private AudioClip highScore;
+    [SerializeField] private AudioClip midScore;
+    [SerializeField] private AudioClip lowScore;
     
     void Awake()
     {
@@ -25,7 +28,7 @@ public class EndScreen : MonoBehaviour
         }
         else
         {
-            finalScoreText.text = "Pathetic. Truly terrible. \n Final score: " + scoreKeeper.CalculateScore() + "%"; 
+            finalScoreText.text = "Pathetic. Truly terrible. \n Final score: " + scoreKeeper.CalculateScore() + "%";
         }
     }
 }

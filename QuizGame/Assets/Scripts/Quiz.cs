@@ -1,5 +1,4 @@
-using System;
-using System.Collections;
+
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
@@ -33,6 +32,10 @@ public class Quiz : MonoBehaviour
     [Header("ProgressBar")] 
     [SerializeField] private Slider progressBar;
     public bool isComplete;
+
+    [Header("SoundEffects")] 
+    [SerializeField] private AudioClip rightAnswer;
+    [SerializeField] private AudioClip wrongAnswer;
 
         void Awake()
     {
@@ -85,6 +88,7 @@ public class Quiz : MonoBehaviour
             buttonImage = answerButtons[index].GetComponent<Image>();
             buttonImage.sprite = correctAnswerSprite;
             scoreKeeper.IncrementCorrectAnswers();
+            GetComponent<AudioSource>().PlayOneShot(rightAnswer);
         }
         else
         {
@@ -93,6 +97,7 @@ public class Quiz : MonoBehaviour
             questionText.text = "Oops, the right answer was \n" + correctAnswer;
             buttonImage = answerButtons[correctAnswerIndex].GetComponent<Image>();
             buttonImage.sprite = correctAnswerSprite;
+            GetComponent<AudioSource>().PlayOneShot(wrongAnswer);
         }
     }
 

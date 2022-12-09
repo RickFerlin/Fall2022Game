@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ad0f7a9a396223419c3b5dc2759fd60, type: 3}
   m_Name: Question38
   m_EditorClassIdentifier: 
-  question: Which of these is NOT a race in The Elder Scrolls series?
+  question: Prompto is the certified-soft-boy of Final Fantasy XV, and loves animals.
+    But which animal is his favorite?
   answers:
-  - Chimer
-  - Glommer
-  - Falmer
-  - Sload
+  - Moogles
+  - Chocobos
+  - Cactuars
+  - Spiracorns
   correctAnswerIndex: 1

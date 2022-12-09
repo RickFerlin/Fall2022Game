@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ad0f7a9a396223419c3b5dc2759fd60, type: 3}
+  m_Name: Question71
+  m_EditorClassIdentifier: 
+  question: In 2014, legendary game maker Hideo Kojima released a playable teaser
+    for a revival of a horror game that would never happen. What was that game?
+  answers:
+  - Fatal Frame
+  - Clock Tower
+  - Silent Hills
+  - System Shock
+  correctAnswerIndex: 2

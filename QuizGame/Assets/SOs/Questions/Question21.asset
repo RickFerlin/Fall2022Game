@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ad0f7a9a396223419c3b5dc2759fd60, type: 3}
   m_Name: Question21
   m_EditorClassIdentifier: 
-  question: 'Careful pirating games! In Insomniac''s "Spyro: Year of the Dragon"
-    for PS1 which of these was NOT an anti-piracy measure?'
+  question: 'In Insomniac''s "Spyro: Year of the Dragon" for PS1, which of these
+    was NOT an anti-piracy measure?'
   answers:
   - Players could not pause the game
   - Sparx the Dragonfly would disappear completely

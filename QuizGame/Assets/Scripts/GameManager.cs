@@ -1,24 +1,33 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
+
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
+    //Thanks to gamedev.tv for help with starting this scripting.
+    
     private Quiz quiz;
     private EndScreen endScreen;
+    private StartScreen startScreen;
+    private Timer timer;
+
+    [SerializeField] private AudioClip startSound;
 
     private void Awake()
     {
         quiz = FindObjectOfType<Quiz>();
         endScreen = FindObjectOfType<EndScreen>();
+        startScreen = FindObjectOfType<StartScreen>();
+        timer = FindObjectOfType<Timer>();
     }
 
-    void Start()
+    public void StartGame()
     {
+        startScreen.gameObject.SetActive(false);
         quiz.gameObject.SetActive(true);
         endScreen.gameObject.SetActive(false);
+        timer.gameObject.SetActive(true);
+        GetComponent<AudioSource>().PlayOneShot(startSound);
     }
     
     void Update()

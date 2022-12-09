@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ad0f7a9a396223419c3b5dc2759fd60, type: 3}
   m_Name: Question17
   m_EditorClassIdentifier: 
-  question: Super Mario Bros 3 introduced a lot of unique and fun worlds. Which of
-    the 8 worlds was full of giant blocks, enemies, and obstacles?
+  question: Which of the 8 worlds in Super Mario Bros 3 was full of giant blocks,
+    huge enemies, and oversized obstacles?
   answers:
   - World 3
   - World 4

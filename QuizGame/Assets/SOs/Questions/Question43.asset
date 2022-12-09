@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ad0f7a9a396223419c3b5dc2759fd60, type: 3}
   m_Name: Question43
   m_EditorClassIdentifier: 
-  question: 'Super Mario RPG: The Legend of the Seven Stars was a SNES game developed
-    by Squaresoft featuring Nintendo characters. Who was the evil cosmic villain
-    that caused Bowser and Mario to work together to save the Mushroom Kingdom?'
+  question: 'In Super Mario RPG: The Legend of the Seven Stars for the SNES, who
+    was the evil cosmic villain that caused Bowser and Mario to work together to
+    save the Mushroom Kingdom?'
   answers:
   - Belome
   - Geno

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ad0f7a9a396223419c3b5dc2759fd60, type: 3}
   m_Name: Question32
   m_EditorClassIdentifier: 
-  question: Mario Karts most popular racetrack is undeniably Rainbow Road. How many
+  question: Mario Kart's most popular racetrack is undeniably Rainbow Road. How many
     iterations of Rainbow Road have there been?
   answers:
   - 6

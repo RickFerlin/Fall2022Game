@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Question40
   m_EditorClassIdentifier: 
   question: 'The Legend of Zelda: Breath of the Wild introduced a ton of vibrant
-    new characters. Which character was the prince of the Zora?'
+    new characters. Which character is the prince of the Zora?'
   answers:
   - Sidon
   - Revali

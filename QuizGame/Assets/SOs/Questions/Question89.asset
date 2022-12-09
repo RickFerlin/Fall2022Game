@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ad0f7a9a396223419c3b5dc2759fd60, type: 3}
+  m_Name: Question89
+  m_EditorClassIdentifier: 
+  question: In Final Fantasy XV, what is unique about the Regalia, the car that Noctis
+    and crew drive around in?
+  answers:
+  - It can convert into a submarine
+  - It can turn into a super weapon
+  - It can sprout wings and fly
+  - It can shrink down to fit in Noctis' pocket
+  correctAnswerIndex: 2

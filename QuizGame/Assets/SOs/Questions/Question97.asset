@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ad0f7a9a396223419c3b5dc2759fd60, type: 3}
+  m_Name: Question97
+  m_EditorClassIdentifier: 
+  question: This 2007 game was the benchmark for PC performance at the time, prompting
+    the meme, "but can it run _________?"
+  answers:
+  - Crysis
+  - Portal
+  - S.T.A.L.K.E.R.
+  - Overlord
+  correctAnswerIndex: 0

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ad0f7a9a396223419c3b5dc2759fd60, type: 3}
+  m_Name: Question98
+  m_EditorClassIdentifier: 
+  question: In Metal Gear Solid 3, the main theme song "Snake Eater" finally plays
+    near the end of the game as Naked Snake is doing what?
+  answers:
+  - Slowly drowning to death
+  - Climbing a very very long ladder
+  - Facing off with Big Boss
+  - Cleaning his weapons for the final showdown
+  correctAnswerIndex: 1
